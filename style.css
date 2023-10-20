@@ -1,1 +1,51 @@
+*{
+    margin: 0;
+}
 
+.cabecera{
+  max-width: 1200px;
+  min-height: 120px;
+  background-color: #344B80;
+
+}
+
+.caja{
+    display: flex;
+    min-height: 400px;
+    min-width: 200px;
+}
+
+main {
+    flex: 3; /* El contenido principal ocupa 3/4 del ancho. */
+    background-color: #6490F5;
+    padding: 20px;
+}
+
+aside {
+    flex: 1; /* El aside ocupa 1/4 del ancho. */
+    background-color: #567BD1;
+    padding: 10px;
+}
+
+.partee1, .partee2 {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #344B80;
+    
+}
+
+.parte1 {
+    background-color: #555;
+}
+
+.parte2 {
+    background-color: #777;
+}
+
+footer{
+    display: flex;
+    
+    min-height: 80px;
+    max-height: 80px;
+}

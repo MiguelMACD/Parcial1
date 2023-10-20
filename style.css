@@ -26,7 +26,30 @@ h3{
   align-items: center;
 }
 
+.contenedor {
+    
+    align-items: center;
+}
 
+.imagen2 {
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.texto-derecha {
+    flex: 1;
+}
+
+.texto-adicional {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.texto-adicional p {
+    margin-right: 20px;
+}
 
 .caja{
     display: flex;
@@ -67,4 +90,39 @@ footer{
     
     min-height: 80px;
     max-height: 80px;
+}
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-button {
+    background-color: #008CBA;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-list {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.menu-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu:hover .menu-list {
+    display: block;
 }

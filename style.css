@@ -1,13 +1,32 @@
 *{
     margin: 0;
 }
+h1{
+    size: 2.5em;
+}
+h3{
+    size: 1.5em;
+}
+
+#icono {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+#titulo {
+    text-align: center;
+}
 
 .cabecera{
   max-width: 1200px;
   min-height: 120px;
   background-color: #344B80;
-
+  display: flex;
+  align-items: center;
 }
+
+
 
 .caja{
     display: flex;
@@ -29,7 +48,7 @@ aside {
 
 .partee1, .partee2 {
     flex: 1;
-    text-align: center;
+    
     padding: 10px;
     background-color: #344B80;
     
